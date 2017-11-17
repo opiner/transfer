@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+
+
+  .input-form>.form-group>.form-control:focus,
+  .cus-input:focus {
+      border-color: #39689C;
+  }
+
+  .input-form>.form-group>.form-control,
+  .cus-input {
+      border-radius: 0;
+      height: 40px;
+      /* background: #999; */
+      border: 1;
+  }
+
+  .input-form>.form-group>.form-control:focus,
+  {
+    background: #39689C;
+  }
+
+
+
+  .form-holder {
+      margin-top: 30px;
+  }
+
+
+ .intro {
+      color: #25313F;
+      margin-bottom: 30px;
+      margin-top: 30px;
+      font-weight: bold;
+      font-size: 25px;
+  }
+
+  .input-form>.form-group>label {
+      color: #39689C;
+  }
+
+  .input-form>.form-group {
+      text-align: left;
+      margin-bottom: 20px;
+  }
+
+  .input-form {
+      text-align: left;
+      margin-top: 5px;
+  }
+
+  .input-form>.form-group>button {
+      background: #39689C;
+      
+      padding: 4px 12px;
+      border-color: #39689C;
+      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+      cursor: pointer;
+  }
+
+  .form-group>button:hover,
+  .form-group>button:focus {
+      background: #295b93;
+      color: #fff;
+      border-color: #39689C;
+      border-width: 1px;
+  }
+
+  .form-group>label{
+      color:#555;
+  }

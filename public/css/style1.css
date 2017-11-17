@@ -1,0 +1,409 @@
+html {
+    font-family: 'Nunito Sans', sans-serif;
+    position: relative;
+    min-height: 100%;
+}
+
+:root {
+    --hue-color: #fd8032;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.navbar {
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+.hue-bg{
+    border-radius: 23px;
+    cursor: pointer;
+}
+
+.hue-bg:hover{
+    background: #f88e4c;
+}
+
+.bg-dark {
+    background-color: #333333 !important;
+}
+
+.ben-list{
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    margin-bottom: 3px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 1px;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link {
+    color: white;
+    border: 2px solid #FD8032;
+    border-radius: 64px;
+    padding: 2px 25px;
+    background: #fd8032;
+}
+
+.user-img {
+    border-radius: 25px;
+}
+
+.nav-link.active {
+    color: white;
+}
+
+.sidebar-toggle {
+    border: 1px solid white;
+    border-radius: 2px;
+    background: transparent;
+}
+
+.sidebar-toggle > span {
+    height: 1.7em;
+    width: 1.7em;
+}
+
+.search {
+    margin-right: 50px !important;
+}
+
+.header {
+    background: var(--hue-color);
+    padding: 10px 0;
+    width: 100%;
+}
+
+.header p {
+    color: white;
+    margin: 0;
+}
+
+.side-bar {
+    padding: 0;
+    background: whitesmoke;
+}
+
+.transfer-icon {
+    height: 100px;
+}
+
+.sidy {
+    padding: 50px 15px;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.side-items {
+    margin-bottom: 20px;
+}
+
+.side-item {
+    color: rgb(56, 53, 53);
+    font-weight: bold;
+    font-size: 16px;
+    opacity: 0.6;
+}
+
+.side-item:hover {
+    color: var(--hue-color);
+    text-decoration: none;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.side-item.active {
+    color: var(--hue-color);
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid rgb(197, 195, 195);
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px;
+    /* Vertically center the text there */
+    background-color: white;
+}
+
+.company {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    padding: 5px 10px;
+}
+
+li.nav-item {
+    margin: 5px 10px;
+}
+.admin-login > .form-group > .form-control:focus,
+.cus-input:focus {
+    border-color: #fd8032;
+}
+
+.admin-login > .form-group > .form-control,
+.cus-input {
+    border-radius: 0;
+    border: none;
+    border-bottom: 2px solid grey;
+}
+
+.form-holder {
+    margin-top: 20px;
+}
+.admin-login > .form-group > label {
+    color: white;
+}
+
+.admin-login > .form-group {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 1.2rem;
+}
+
+.admin-login {
+    text-align: center;
+    width: 70%;
+    margin: 20px auto 30px;
+}
+
+.hide {
+    display: none !important;
+}
+
+.show {
+    display: block !important;
+}
+
+.top-up {
+    width: 60%;
+}
+
+.balance {
+    padding: 40px 0;
+    margin: 40px 0;
+    width: 70%;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.15);
+}
+
+.white-text{
+    color: white;
+}
+
+.balance-text{
+    color: var(--hue-color);
+    font-weight: 600;
+}
+
+.header.topUp{
+   background: white;
+   color: var(--hue-color);
+
+}
+
+.header-text{
+    color: var(--hue-color);
+    font-weight: 600;
+}
+
+#app{
+    background: var(--hue-color);
+}
+
+.custom-button.topUp{
+    padding: 10px 65px;
+    color: var(--hue-color);
+    font-weight: 600px;
+}
+
+.admin-login > button {
+    background: #FD8032;
+    padding: 10px 80px;
+    border-radius: 63px;
+    border-color: #FD8032;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.admin-login.topUp {
+    width: 85%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.providers-list {
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+}
+
+.provider {
+    display: inline-block;
+    margin: 5px 10px;
+}
+
+.provider > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    filter: grayscale(1);
+}
+
+.provider > img:hover {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+    transform: scale(1);
+    filter: grayscale(0)
+}
+
+.img-selected {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25) !important;
+    transform: scale(1) !important;
+    filter: grayscale(0) !important;
+}
+
+
+.plans {
+    margin: 10px 0;
+}
+
+.sub{
+    padding: 8px 30px !important;
+    margin: 10px 10px;
+}
+
+
+.custom-button.selected, .custom-button:hover, .custom-button:active, .custom-button:focus {
+    color: #fff !important;
+    background-color: var(--hue-color) !important;
+    border-color: var(--hue-color) !important;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+.data-plan {
+    display: inline-block;
+    margin: 10px 5px;
+    border: 1px solid grey;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+.data-plan.selected{
+    border: 1px solid var(--hue-color);
+    color: var(--hue-color);
+}
+
+.data-plan:hover {
+    border: 1px solid var(--hue-color);
+    color: var(--hue-color);
+}
+
+.data-plan > p {
+    margin: 4px 0;
+}
+
+.custom-button {
+    background: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border-color: rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    margin: 0 4px;
+    color: black;
+    opacity: 0.8;
+}
+
+@media (min-width: 576px){
+    .modal-dialog{
+        max-width: 700px;
+    }
+}
+.button-row {
+    margin: 20px 0;
+}
+
+.admin-login > button:hover,
+.admin-login > button:focus {
+    background: rgb(252, 251, 250);
+    color: #FD8032;
+    border-color: #FD8032;
+    border-width: 2px;
+}
+
+.forgot-holder {
+    margin-top: 15px;
+}
+
+#emailHelp {
+    opacity: 0;
+}
+
+@media screen and (max-width: 750px) {
+    .login-box {
+        width: 100%;
+        margin-top: 10%;
+        padding: 40px 0 60px;
+    }
+
+    .admin-login {
+        width: 80%;
+    }
+
+    .intro {
+        margin-bottom: 20px;
+    }
+
+    .sign-in {
+        font-size: 18px;
+    }
+
+    .company {
+        font-size: 14px
+    }
+
+    .promise {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hidden-sm {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .custom-button{
+        padding: 10px;
+        margin: 0;
+    }
+    .provider{
+        margin: 10px;
+    }
+    .prov-img{
+        height: 40px !important;
+        width: 40px !important;
+        border-radius: 20px !important;
+    }
+    .sec{
+        padding: 0 !important;
+    }
+}

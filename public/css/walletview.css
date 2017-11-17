@@ -1,0 +1,26 @@
+.orange-box{
+    background: #39689C;
+    padding: 5px;
+    color: white;
+    font-family: "Nunito Sans";
+}
+
+.btn-dark{
+    padding: 3px 10px;
+    margin: 5px;
+    margin-left: 10px;
+    border-radius:20px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    color:#39689C;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Nunito Sans';
+    letter-spacing: 2px;
+}
+
+.btn-dark:hover, .btn-dark:active{
+    border: 1px solid #39689C;
+    background-color: #39689C;
+    color:white;
+    }

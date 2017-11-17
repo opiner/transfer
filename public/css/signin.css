@@ -1,0 +1,267 @@
+html {
+    font-family: 'Nunito Sans', sans-serif;
+    position: relative;
+    min-height: 100%;
+}
+
+:root {
+    --hue-color: #fd8032;
+}
+
+body {
+    margin-bottom: 60px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.navbar {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+    border-bottom: 3px solid #00AFF0;
+    background-color: white !important;
+}
+.navbar-dark .navbar-brand {
+    color: #00AFF0 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color:#000000 !important;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color:#00AEFF !important;
+}
+#header-btn .nav-link {
+    color: white;
+    border: 2px solid #00AEFF;
+    border-radius: 64px;
+    padding: 2px 25px;
+    background: #FFFFFF;
+    margin: 2px;
+    text-align: center;
+}
+
+user-img {
+    border-radius: 25px;
+}
+
+.nav-link.active {
+    color: #CCCCCC;
+}
+
+.sidebar-toggle {
+    border: 1px solid white;
+    border-radius: 2px;
+    background: transparent;
+}
+
+.sidebar-toggle>span {
+    height: 1.7em;
+    width: 1.7em;
+}
+
+.search {
+    margin-right: 50px !important;
+}
+
+.side-bar {
+    border-right: 1px solid rgb(192, 190, 190);
+}
+
+.main-content {}
+
+.transfer-icon {
+    height: 100px;
+}
+
+.sidy {
+    padding: 50px 15px;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.side-items {
+    margin-bottom: 20px;
+}
+
+.side-item {
+    color: rgb(56, 53, 53);
+    font-weight: bold;
+    font-size: 16px;
+    opacity: 0.6;
+}
+
+.side-item:hover {
+    color: var(--hue-color);
+    text-decoration: none;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.side-item.active {
+    color: var(--hue-color);
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid rgb(197, 195, 195);
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px;
+    /* Vertically center the text there */
+    background-color: white;
+}
+
+.company {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    padding: 5px 10px;
+}
+
+li.nav-item {
+    margin: 5px 10px;
+}
+
+.login-box {
+    margin: auto;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+    padding: 60px 0 80px;
+}
+
+.admin-login>.form-group>.form-control:focus,
+.cus-input:focus {
+    border-color: #00AEFF;
+}
+
+.admin-login>.form-group>.form-control,
+.cus-input {
+    border-radius: 0;
+    border: none;
+    border-bottom: 2px solid grey;
+}
+
+.form-holder {
+    margin-top: 20px;
+}
+
+.sign-in {
+    color: #39689C;
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
+
+.promise {
+    font-size: 15px;
+    font-weight: 500;
+    opacity: 0.8;
+    letter-spacing: 0.02rem;
+    text-align: center;
+}
+
+.intro {
+    color: black;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.admin-login>.form-group>label {
+    color: white;
+}
+
+.admin-login>.form-group {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 1.2rem;
+}
+
+.admin-login {
+    text-align: center;
+    width: 70%;
+    margin-top: 20px;
+}
+.admin-login>button {
+    background: #39689C;
+    padding: 4px 12px;
+    
+    border-color: #39689C;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.admin-login>button:hover,
+.admin-login>button:focus {
+    background: #295b93;
+    color: #fffF;
+    border-color: #39689C;
+    border-width: 1px;
+}
+
+.forgot-holder {
+    margin-top: 15px;
+}
+
+#emailHelp {
+    opacity: 0;
+}
+
+.forgot-holder {
+    margin-top: 15px;
+}
+
+.forgot-password {
+    color: black !important;
+    font-size: 12px;
+    margin-bottom: 0;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 750px) {
+    .login-box {
+        width: 100%;
+        margin-top: 10%;
+        padding: 40px 0 60px;
+    }
+    .admin-login {
+        width: 80%;
+    }
+    .intro{
+        margin-bottom: 20px;
+    }
+    .sign-in {
+        font-size: 18px;
+    }
+    .company {
+        font-size: 14px
+    }
+    .promise {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .hidden-sm {
+        display: none;
+    }
+    .navbar-toggler-icon {
+        background:#00AEFF !important;
+}
