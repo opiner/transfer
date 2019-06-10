@@ -11,7 +11,7 @@ Make sure your have composer and [Docker](https://docs.docker.com/) installed
 
 Clone the repo
 
-    git clone https://github.com/hnginterns/transfer.git
+    git clone https://github.com/opiner/transfer
 
  Change directory
 
